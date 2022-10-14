@@ -80,16 +80,13 @@
     top: 30px;
 }
 .text-container p span{
-    color:#d203fc;
+    color:red;
+
 }
-.text-container a{
-    color: #f7f700;
+. footer-buttom {
+    text-align: center;
     font-family: "Poppins",sans-serif;
-    font-size: 13px;
-    line-height: 25px;
-    
-    letter-spacing: 0.2px;
-    text-align: justify;
+
 }
 body {
     margin: 0;
