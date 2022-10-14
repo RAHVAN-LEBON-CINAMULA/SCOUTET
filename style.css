@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.annim{
+    height: 320px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.annime1{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background: linear-gradient(
+        45deg,
+        #d203fc,
+        rgb(252, 252, 252)
+    );
+    border-radius: 50%;
+    right: -80px;
+    top: -100px;
+}
+.annime2{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(
+        45deg,
+        #4d2dee,
+        #f90202
+    );
+    position: absolute;
+    border-radius: 50%;
+    left: -50px;
+    bottom: -90px;
+}
+.carte{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #4d02fc rgb(1, 10, 100);
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px rgba(10, 10, 100, 0.2);
+    backdrop-filter: blur(15px);
+}
+.text-container{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+    justify-content: center;
+   
+}
+.text-container h2{
+    margin-bottom: 20px;
+    color: #fdfbfb;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align:center;
+    font-size: 20px;
+}
+.text-container p{
+    color: #fdfbfb;
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    top: 30px;
+}
+.text-container p span{
+    color:#d203fc;
+}
+.text-container a{
+    color: #f7f700;
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+body {
+    margin: 0;
+    background: #1c1b1b;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(22, 3, 143);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
